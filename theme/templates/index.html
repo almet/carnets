@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content_title %}{% endblock %}
+{% block content %}        
+{% if articles %}
+    <section id="content" class="body">
+    <p>Des carnets, des notes pas terminées, des trucs à partager ou à ne pas oublier …</p>
+    <ol id="posts-list" class="hfeed">
+    {% set category = None %}
+    {% for article in articles_page.object_list %}        
+    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title}}" class='{{ article.lang }}'>
+            <li><article class="hentry {{ article.category }}">    
+            {% if article.category.name != category %}
+                <span class='category {{ article.category }}'>{{ article.category }}</span>
+                {% set category = article.category.name %}
+            {% endif %}
+            <h1> {{ article.title }} </h1>
+            </article></li>
+        </a>
+    {% endfor %}
+    </ol><!-- /#posts-list -->
+    </section><!-- /#content -->
+{% else %}
+<section id="content" class="body">    
+<h2>Pages</h2>
+    {% for page in PAGES %}
+        <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
+    {% endfor %}
+</section>
+{% endif %}
+{% endblock content %}
