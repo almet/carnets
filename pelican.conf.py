@@ -8,7 +8,7 @@ CSS_FILE = "wide.css"
 SITEURL = 'http://carnets.notmyidea.org'
 
 TIMEZONE = "Europe/Paris"
-LOCALE = "en_US.utf8"
+LOCALE = "fr_FR.utf8"
 DEFAULT_CATEGORY = "vrac"
 
 DEFAULT_DATE_FORMAT = ('%B %Y')
