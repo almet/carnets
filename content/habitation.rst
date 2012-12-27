@@ -2,7 +2,7 @@ Habitat collectif
 #################
 
 :date: 28-12-2012
-:categories: utopies-concretes
+:category: utopies-concretes
 
 Habiter à plusieurs, partager un lieu de vie, monter une communauté, changer
 nos modes de vie et prendre plus de temps les uns pour les autres.
