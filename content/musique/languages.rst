@@ -13,4 +13,4 @@ http://www.studiomezzanine.fr/natascha-rogers/
 
 .. raw:: html
 
-    <iframe width="780" height="480" src="http://www.youtube.com/embed/3I5PPdsTFz0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="650" height="480" src="http://www.youtube.com/embed/3I5PPdsTFz0" frameborder="0" allowfullscreen></iframe>
