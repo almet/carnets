@@ -49,17 +49,18 @@ hr { border: 2px solid #EEEEEE; }
 #content img { border: 10px black solid; display: block; margin: 20px auto;}
 
 /* Anchors */
-a {outline: 0;}
-a img {border: 0px; text-decoration: none;}
-article a:link, article a:visited {
-    border-radius: 5px 5px 5px 5px;
+article .entry-content a:link, article .entry-content a:visited {
     padding: 0px 5px;
-    background-color: rgb(234, 234, 234);
     color: rgb(0, 0, 0);
     text-decoration: none;
+    border-bottom: 1px dashed #999;
+
 }
 
-article a:hover, article a:active {
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+
+article .entry-content a:hover, article .entry-content a:active {
 	color: #fff;
     background-color: #000;
 }
@@ -146,7 +147,7 @@ aside, nav, article, figure {
 }
 
 /***** Layout *****/
-.body {clear: both; margin: 0 auto; width: 800px;}
+.body {clear: both; margin: 0 auto;}
 img.right figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
@@ -156,6 +157,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #banner {
 	margin: 0 auto;
 	padding: 2.5em 0 0 0;
+    width: 800px;
 }
 
 	/* Banner */

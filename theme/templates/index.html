@@ -8,13 +8,19 @@
     <ol id="posts-list" class="hfeed">
     {% set category = None %}
     {% for article in articles_page.object_list %}        
-    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title}}" class='{{ article.lang }}'>
-            <li><article class="hentry {{ article.category }}">    
+            <li><article class="body hentry {{ article.category }}">    
             {% if article.category.name != category %}
                 <span class='category {{ article.category }}'>{{ article.category }}</span>
                 {% set category = article.category.name %}
             {% endif %}
+            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title}}" class='{{ article.lang }}'>
             <h1> {{ article.title }} </h1>
+            </a>
+            <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+            <div class="entry-content">
+
+            {{ article.content }}
+            </div>
             </article></li>
         </a>
     {% endfor %}
