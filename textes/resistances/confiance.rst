@@ -29,13 +29,11 @@ Un "capital de confiance"
 Cette vidéo parle entre autres du *capital de confiance* que nous pouvons
 nous accorder les uns aux autres; et notamment du fait que ce capital de
 confiance n'est malheureusement pas partagé au dela d'un cercle de
-connaissances assez limité.
-
-entre les personnes, il reste dans notre cercle de connaissances proche, les
+connaissances assez limité. Il reste dans notre cercle de connaissances proche, les
 amis des amis.
 
 C'est donc une chose regrettable, parce que ça nous fait perdre du temps (et
-dong, *ohmygod* de l'argent) à tous pour construire cette confiance. Temps qui
+donc, *ohmygod* de l'argent) à tous pour construire cette confiance. Temps qui
 pourrait être mieux employé.
 
 La solution proposée, attention les yeux, est de faire appel un maximum aux
@@ -52,17 +50,17 @@ L'avènement du paiement en ligne
 On nous dit maintenant que le paiement en ligne est une révolution, un moyen de
 tracer le fait qu'il y à effectivement eu une transaction entre deux personnes;
 et que donc il en deviendrait un outil pour vérifier que la confiance est bien
-légitime, et non pas créé de toute pièce sur le profil de la personne en
+légitime, et non pas créée de toute pièce sur le profil de la personne en
 question.
 
 Plus exactement, ce qui est dit est que le paiement en ligne permet de
-justifier qu'il y à bien eu transaction entre deux personnes, et que donc les
+justifier qu'il y a bien eu transaction entre deux personnes, et que donc les
 commentaires et "notations" effectuées sont donc légitimes.
 
 Ce n'est pas un problème de confiance !
 =======================================
 
-Bien que j'arrive à suivre le raisonnement, il soulève certaines questions:
+Bien que j'arrive à suivre le raisonnement, il soulève certaines questions :
 
 Si j'accorde de la confiance à quelqu'un dans mon cercle de connaissances,
 c'est justement parce qu'il fait partie de ce cercle de connaissances. Pas
@@ -109,7 +107,7 @@ mais il n'est à mon avis pas lié au profils en ligne.
 
 La vidéo termine sur un "libérez la valeur de la confiance". Oui, mais la
 libérer pour qui ? Quels sont les problèmes liés à cette confiance rendue
-nécessaire partout et pour tout ? Cela ne nous ferait il pas évoluer uniquement
+nécessaire partout et pour tout ? Cela ne nous ferait-il pas évoluer uniquement
 dans des cercles fermés ? Quelle place laisser à l'inconnu, à la surprise ?
 
 Cette volonté de "confiance partout" semble découler tout droit des délires
