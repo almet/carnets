@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-PATH = "content"
+PATH = "textes"
 AUTHOR = u'Alexis Métaireau'
 SITENAME = u"Carnets"
 THEME = "theme"
