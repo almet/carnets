@@ -1,7 +1,7 @@
 Des profils de confiance partout et pour tout ?
 ###############################################
 
-:date: 17/01/2013
+:date: 04/02/2013
 
 Depuis un petit moment déjà, le site covoiturage.fr est passé "payant". Il est
 désormais possible (et même obligatoire) de payer les trajets à l'avance, et en
